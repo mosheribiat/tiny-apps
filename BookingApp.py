@@ -1,4 +1,8 @@
-# The Farmer's Dog
+# Process the list of booking lines for a hotel with 5 rooms.
+# A client must be booked in a single room for the entire booked period.
+# Return the room the booking will get and if all rooms cannot be filled return the NO_ROOM_AVAIL error.
+# For invalid lines return the applicable error reponse.
+
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime, date, timedelta

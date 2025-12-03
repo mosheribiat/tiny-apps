@@ -1,3 +1,5 @@
+# Process invoice lines, if a date is missing or invalid do not return.
+# Dates that are within 7 days from the due date should be returned in the due soon list and dates past due should be returned in overdue list.
 from datetime import datetime, timedelta
 
 class InvoiceTracker:
